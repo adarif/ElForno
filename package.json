@@ -1,9 +1,14 @@
 {
   "name": "ElForno",
-  "version": "0.0.1"
+  "version": "0.0.0",
+  "description": "The moroccan online pizza"
   ,
+  "scripts": {
+    "test": "mocha test/ElFornoTests.js"
+  },
   "dependencies": {
-  "express": "~4.13.1"
+    "express": "~4.13.1",
+    "mocha": "~2.4.5"
   }
 }
 
